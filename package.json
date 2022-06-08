@@ -1,0 +1,22 @@
+{
+	"name": "bilibili-download",
+	"version": "1.0.0",
+	"description": "BiliBili 视频下载工具",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.21.4",
+		"cheerio": "^1.0.0-rc.11",
+		"fs-extra": "^10.1.0",
+		"got": "^12.1.0",
+		"inquirer": "^7.3.3",
+		"md5": "^2.3.0",
+		"moment": "^2.29.3",
+		"request": "^2.88.2",
+		"single-line-log": "^1.1.2"
+	}
+}
