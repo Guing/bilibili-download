@@ -2,9 +2,11 @@ lockfileVersion: 5.3
 
 specifiers:
   axios: ^0.21.4
+  bufferhelper: ^0.2.1
   cheerio: ^1.0.0-rc.11
   fs-extra: ^10.1.0
   got: ^12.1.0
+  iconv-lite: ^0.6.3
   inquirer: ^7.3.3
   md5: ^2.3.0
   moment: ^2.29.3
@@ -13,9 +15,11 @@ specifiers:
 
 dependencies:
   axios: 0.21.4
+  bufferhelper: 0.2.1
   cheerio: 1.0.0-rc.11
   fs-extra: 10.1.0
   got: 12.1.0
+  iconv-lite: 0.6.3
   inquirer: 7.3.3
   md5: 2.3.0
   moment: 2.29.3
@@ -141,6 +145,11 @@ packages:
 
   /boolbase/1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
+    dev: false
+
+  /bufferhelper/0.2.1:
+    resolution: {integrity: sha512-asncN5SO1YOZLCV3u26XtrbF9QXhSyq01nQOc1TFt9/gfOn7feOGJoVKk5Ewtj7wvFGPH/eGSKZ5qq/A4/PPfw==}
+    engines: {node: '>= 0.8.0'}
     dev: false
 
   /cacheable-lookup/6.0.4:
@@ -517,6 +526,13 @@ packages:
 
   /iconv-lite/0.4.24:
     resolution: {integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      safer-buffer: 2.1.2
+    dev: false
+
+  /iconv-lite/0.6.3:
+    resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
     engines: {node: '>=0.10.0'}
     dependencies:
       safer-buffer: 2.1.2
